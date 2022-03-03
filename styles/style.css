@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap");
+
+body {
+  background-color: #15161b;
+  color: white;
+  font-family: "Oswald";
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 90px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+span {
+  color: #1a7993;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 90px 100px 100px;
+}
+
+header section p {
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+header h2 {
+  font-size: 40px;
+  margin: 0 0 45px;
+  line-height: 45px;
+}
+
+header button {
+  width: 280px;
+  height: 57px;
+  font-family: "Oswald";
+  background-color: #1a7993;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#couple-01 {
+  width: 480px;
+  height: 320px;
+  border-radius: 8px;
+}
+
+.topic {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cards div {
+  margin: 0 20px 70px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  background-color: #2c2f37;
+  border-radius: 5px;
+}
+
+.cards div:hover {
+  background-color: #1a7993;
+  transition: 0.3s;
+}
+
+.cards p {
+  margin-top: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.cards i {
+  margin-top: 57px;
+}
+
+.topic-2 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #1a7993;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.topic-2 article {
+  margin: 0;
+  margin-right: 100px;
+  height: 375px;
+}
+
+.topic-2 img {
+  max-width: 250px;
+}
+
+.content-aux {
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+.topic-2 h2 {
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 50px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.topic-2 p {
+  font-size: 29px;
+  margin: 0;
+  line-height: 40px;
+  font-family: "Oswald";
+  font-weight: 300;
+}
+
+.topic-2 button {
+  width: 80%;
+  height: 70px;
+  margin-top: 35px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+aside {
+  margin-top: 85vh;
+}
+
+aside h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 27px;
+}
+
+form {
+  align-items: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 35%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Oswald";
+  text-transform: uppercase;
+}
+
+input::placeholder {
+  color: #2c2f37;
+}
+
+input[type="submit"] {
+  background-color: #1a7993;
+  width: 38%;
+  height: 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul {
+  margin-right: 30px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+a {
+  color: white;
+}
