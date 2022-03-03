@@ -6,7 +6,7 @@ Este é meu segundo desafio de criação de uma _landing page_ retirada do canal
 <h3 align="center">Link do site 👇🏽</h3>
 
 <div align="center">
-  meu link aqui
+  https://lucasnsf.github.io/lp-reencontrow/
 </div>
 
 ## Tecnologias Utilizadas 🧑🏽‍💻
